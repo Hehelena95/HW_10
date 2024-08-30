@@ -1,0 +1,141 @@
+    1  ATEEZinNCT2021
+    2  /Applications/flameshot.app/Contents/MacOS/flameshot ; exit;
+    3  sudo sntp -sS time.apple.com
+    4  sudo sntp -sS time.apple.com
+    5  sudo sntp -sS time.apple.com
+    6  git -version
+    7  git --version
+    8  man ls
+    9  man ls
+   10  ls --help
+   11  ls -help
+   12  q
+   13  ls
+   14  ls
+   15  cd Desktop
+   16  ls
+   17  cd /
+   18  ls
+   19  q
+   20  clear
+   21  pwd
+   22  cd Desktop
+   23  pwd
+   24  mkdr Test1
+   25  mkdir Test1
+   26  cd Test1
+   27  touch file.txt
+   28  touch file1.txt
+   29  vim file.txt
+   30  nano file1.txt
+   31  cut file.txt
+   32  cat file.txt
+   33  cat file1.txt
+   34  cp file.txt Lesson32
+   35  cp file.txt lesson32
+   36  cp file.txt /Users/elena.duvanova/Desktop
+   37  cp file.txt lesson32
+   38  mv file1.txt /Users/elena.duvanova/Desktop
+   39  cp Lesson32 lesson32
+   40  cp file.txt lesson32
+   41  cp file.txt /Users/elena.duvanova/Desktop/lesson32
+   42  rm Lesson32
+   43  cd ~
+   44  ping namecheap.com
+   45  date
+   46  system_profiler
+   47  clear
+   48  df -h
+   49  ipconfig
+   50  ifconfig
+   51  ipconfig -all
+   52  ifconfig -all
+   53  whoamI
+   54  clear
+   55  git config --global user.name "Olena"
+   56  git config --global user.email duvanova.e@gmail.com
+   57  cd lesson32
+   58  cd Desktop
+   59  cd lesson32
+   60  git clone https://github.com/Hehelena95/lesson32.git
+   61  git status
+   62  cd lesson32/README.md cd ..
+   63  cd ..
+   64  cd lesson32desk
+   65  cd lesson32
+   66  ls
+   67  git status
+   68  touch new.txt
+   69  git status
+   70  git add new.txt
+   71  git status
+   72  git commit -m "New file added"
+   73  git status
+   74  git checkout -b branch_name
+   75  git branch
+   76  nano new.txt
+   77  git status
+   78  git add new.txt
+   79  git status
+   80  git commit -m "New file updated"
+   81  git checkout branch_name
+   82  git checkout main
+   83  git branch
+   84  git merge branch_name
+   85  git push
+   86  git push
+   87  cd Desktop
+   88  cd HW10
+   89  history -c && rm ~/.bash_history
+   90  git config --global user.name "Olena Duvanova"
+   91  git config --global user.email duvanova.e@gmail.com
+   92  git clone https://github.com/Hehelena95/HW_10.git
+   93  cd HW_10
+   94  touch text_ignore.txt
+   95  nano .gitignore
+   96  git status
+   97  git add
+   98  git add text_ignore.txt
+   99  -f
+  100  git add text_ignore.txt -f
+  101  git commit -m "Added a new .txt file"
+  102  touch main_test.txt
+  103  git add main_test.txt
+  104  git commit -m "Added a second .txt file"
+  105  git branch git branch <develop>
+  106  git branch develop
+  107  git checkout develop
+  108  git status
+  109  touch develop_test.txt
+  110  git add develop_test.txt
+  111  git commit develop_test.txt
+  112  cd Desktop
+  113  cd HW10
+  114  history -c && rm ~/.bash_history
+  115  git config --global user.name "Olena Duvanova"
+  116  git config --global user.email duvanova.e@gmail.com
+  117  git clone https://github.com/Hehelena95/HW_10.git
+  118  cd HW_10
+  119  touch text_ignore.txt
+  120  nano .gitignore
+  121  git status
+  122  git add text_ignore.txt
+  123  git add .gitignore
+  124  git commit -m "Updated .gitignore file"
+  125  touch main_test.txt
+  126  git add main_test.txt
+  127  git commit -m "Added .txt file"
+  128  git branch develop
+  129  git checkout branch
+  130  git checkout develop
+  131  git status
+  132  touch develop_test.txt
+  133  git add develop_test.txt
+  134  git commit -m "Added .txt file to the develop branch"
+  135  nano develop_test.txt
+  136  git status
+  137  git add develop_test.txt
+  138  git commit -m "Modified .txt file on the develop branch"
+  139  git checkout main
+  140  git merge develop
+  141  git log
